@@ -9,8 +9,9 @@ html {
 }
 
 body {
-  background-color: #285d7c;
-  font-family: "Syne Mono", monospace;
+  background-color: #1b1b1b;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-optical-sizing: auto;
 }
 
 /* div {
@@ -36,4 +37,11 @@ div {
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+button {
+  border-radius: 12px;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
